@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="AjmoApp" customModuleProvider="target">
+            <connections>
+                <outlet property="bestCoffee" destination="TRr-T8-8wH" id="e9R-RG-aPf"/>
+                <outlet property="casualButton" destination="eg6-RP-1a1" id="oQV-Vp-Hed"/>
+                <outlet property="greatCoffeeButton" destination="pwK-tJ-Qke" id="QG2-Pb-1XU"/>
+                <outlet property="scrollView" destination="8yX-zE-Gfg" id="ege-DY-dOF"/>
+                <outlet property="view" destination="iN0-l3-epB" id="46g-VS-ate"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yX-zE-Gfg">
+                    <rect key="frame" x="20" y="272" width="374" height="244"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.12156862745098039" green="0.13725490196078433" blue="0.1803921568627451" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <viewLayoutGuide key="contentLayoutGuide" id="Sc3-KS-HyU"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="Rc0-cI-jtu"/>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eg6-RP-1a1">
+                    <rect key="frame" x="221" y="666" width="173" height="38"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.83529411764705885" green="0.9137254901960784" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="casual">
+                        <color key="titleColor" red="0.14509803921568626" green="0.13333333333333333" blue="0.20784313725490194" alpha="1" colorSpace="calibratedRGB"/>
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="ultraLight"/>
+                    </state>
+                    <connections>
+                        <action selector="listCasuals:" destination="-1" eventType="touchUpInside" id="OHp-pd-mKW"/>
+                    </connections>
+                </button>
+                <navigationBar hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nyy-8N-g03">
+                    <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.12156862745098039" green="0.13725490196078433" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="barTintColor" red="0.12321233719999999" green="0.1364904395" blue="0.17983050880000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <items>
+                        <navigationItem title="Discover" id="kf7-vr-jcV"/>
+                    </items>
+                </navigationBar>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tXJ-A5-gxL">
+                    <rect key="frame" x="20" y="158" width="374" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.50414704623287676" colorSpace="custom" customColorSpace="displayP3"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wid-e1-kn4">
+                    <rect key="frame" x="20" y="764" width="374" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.49365903253424659" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwK-tJ-Qke">
+                    <rect key="frame" x="20" y="666" width="173" height="38"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.4392156862745098" green="0.23137254901960785" blue="0.047058823529411764" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                    <state key="normal" title="great coffee">
+                        <color key="titleShadowColor" red="0.29290803108808294" green="0.14677167529024956" blue="0.11671061984995815" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                    </state>
+                    <connections>
+                        <action selector="listGreatCoffee:" destination="-1" eventType="touchUpInside" id="osn-Tf-kAj"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRr-T8-8wH">
+                    <rect key="frame" x="20" y="227" width="132" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Best coffee">
+                            <attributes>
+                                <font key="NSFont" size="24" name="AmericanTypewriter-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.12156862745098039" green="0.13725490196078433" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="137.68115942028987" y="130.58035714285714"/>
+        </view>
+    </objects>
+</document>

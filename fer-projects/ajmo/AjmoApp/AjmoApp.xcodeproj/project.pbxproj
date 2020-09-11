@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C32C9CD24F5BD880051FE25 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9C32C9CC24F5BD880051FE25 /* Kingfisher */; };
+		9C32C9D824F6575E0051FE25 /* GreatCoffeeCasualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C32C9D624F6575E0051FE25 /* GreatCoffeeCasualViewController.swift */; };
+		9C32C9D924F6575E0051FE25 /* GreatCoffeeCasualViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C32C9D724F6575E0051FE25 /* GreatCoffeeCasualViewController.xib */; };
+		9C32C9DC24F65A540051FE25 /* GreatCoffeeCasualTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C32C9DA24F65A540051FE25 /* GreatCoffeeCasualTableViewCell.swift */; };
+		9C32C9DD24F65A540051FE25 /* GreatCoffeeCasualTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C32C9DB24F65A540051FE25 /* GreatCoffeeCasualTableViewCell.xib */; };
+		9C32C9E024F65EE90051FE25 /* SingleBestCoffeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C32C9DE24F65EE90051FE25 /* SingleBestCoffeeViewController.swift */; };
+		9C32C9E124F65EE90051FE25 /* SingleBestCoffeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C32C9DF24F65EE90051FE25 /* SingleBestCoffeeViewController.xib */; };
+		9C32C9EF24F7A11F0051FE25 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C32C9EE24F7A11F0051FE25 /* PopUpView.swift */; };
+		9C32C9F124F7A5AA0051FE25 /* PopUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C32C9F024F7A5AA0051FE25 /* PopUpView.xib */; };
+		9C3D940F24F4529900C3B1A2 /* BestCoffee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D940E24F4529900C3B1A2 /* BestCoffee+CoreDataProperties.swift */; };
+		9C3D941124F452BA00C3B1A2 /* BestCoffee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D941024F452BA00C3B1A2 /* BestCoffee+CoreDataClass.swift */; };
+		9C3D941324F453FE00C3B1A2 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D941224F453FE00C3B1A2 /* DataController.swift */; };
+		9C3D941524F53AD800C3B1A2 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D941424F53AD800C3B1A2 /* Slide.swift */; };
+		9C3D941724F53AE700C3B1A2 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C3D941624F53AE700C3B1A2 /* Slide.xib */; };
+		9C3D941A24F54E7900C3B1A2 /* BestCoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D941924F54E7900C3B1A2 /* BestCoffeeViewModel.swift */; };
+		9C4629E124EEC88400C21D59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4629E024EEC88400C21D59 /* AppDelegate.swift */; };
+		9C4629E324EEC88400C21D59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4629E224EEC88400C21D59 /* SceneDelegate.swift */; };
+		9C4629E524EEC88400C21D59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4629E424EEC88400C21D59 /* ViewController.swift */; };
+		9C4629EB24EEC88400C21D59 /* AjmoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C4629E924EEC88400C21D59 /* AjmoApp.xcdatamodeld */; };
+		9C4629ED24EEC88500C21D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4629EC24EEC88500C21D59 /* Assets.xcassets */; };
+		9C4629F024EEC88500C21D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4629EE24EEC88500C21D59 /* LaunchScreen.storyboard */; };
+		9C4629FB24EEC88500C21D59 /* AjmoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4629FA24EEC88500C21D59 /* AjmoAppTests.swift */; };
+		9C462A0624EEC88500C21D59 /* AjmoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C462A0524EEC88500C21D59 /* AjmoAppUITests.swift */; };
+		9C462A1424EEC92A00C21D59 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C462A1324EEC92A00C21D59 /* ViewController.xib */; };
+		9C462A1B24EEDCFA00C21D59 /* BestCoffeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C462A1A24EEDCFA00C21D59 /* BestCoffeeService.swift */; };
+		9C8B6E6724F820FA00787BC6 /* CasualViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B6E6624F820FA00787BC6 /* CasualViewModel.swift */; };
+		9C8B6E6924F8213F00787BC6 /* CasualService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B6E6824F8213F00787BC6 /* CasualService.swift */; };
+		9C8B6E6B24F8216100787BC6 /* Casual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B6E6A24F8216100787BC6 /* Casual.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C4629F724EEC88500C21D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C4629D524EEC88400C21D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4629DC24EEC88400C21D59;
+			remoteInfo = AjmoApp;
+		};
+		9C462A0224EEC88500C21D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C4629D524EEC88400C21D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4629DC24EEC88400C21D59;
+			remoteInfo = AjmoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C32C9D624F6575E0051FE25 /* GreatCoffeeCasualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatCoffeeCasualViewController.swift; sourceTree = "<group>"; };
+		9C32C9D724F6575E0051FE25 /* GreatCoffeeCasualViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreatCoffeeCasualViewController.xib; sourceTree = "<group>"; };
+		9C32C9DA24F65A540051FE25 /* GreatCoffeeCasualTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatCoffeeCasualTableViewCell.swift; sourceTree = "<group>"; };
+		9C32C9DB24F65A540051FE25 /* GreatCoffeeCasualTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreatCoffeeCasualTableViewCell.xib; sourceTree = "<group>"; };
+		9C32C9DE24F65EE90051FE25 /* SingleBestCoffeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBestCoffeeViewController.swift; sourceTree = "<group>"; };
+		9C32C9DF24F65EE90051FE25 /* SingleBestCoffeeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleBestCoffeeViewController.xib; sourceTree = "<group>"; };
+		9C32C9EE24F7A11F0051FE25 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		9C32C9F024F7A5AA0051FE25 /* PopUpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpView.xib; sourceTree = "<group>"; };
+		9C3D940E24F4529900C3B1A2 /* BestCoffee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BestCoffee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9C3D941024F452BA00C3B1A2 /* BestCoffee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BestCoffee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9C3D941224F453FE00C3B1A2 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		9C3D941424F53AD800C3B1A2 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		9C3D941624F53AE700C3B1A2 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		9C3D941924F54E7900C3B1A2 /* BestCoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestCoffeeViewModel.swift; sourceTree = "<group>"; };
+		9C4629DD24EEC88400C21D59 /* AjmoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AjmoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4629E024EEC88400C21D59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C4629E224EEC88400C21D59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C4629E424EEC88400C21D59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C4629EA24EEC88400C21D59 /* AjmoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AjmoApp.xcdatamodel; sourceTree = "<group>"; };
+		9C4629EC24EEC88500C21D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C4629EF24EEC88500C21D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C4629F124EEC88500C21D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4629F624EEC88500C21D59 /* AjmoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AjmoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4629FA24EEC88500C21D59 /* AjmoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjmoAppTests.swift; sourceTree = "<group>"; };
+		9C4629FC24EEC88500C21D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C462A0124EEC88500C21D59 /* AjmoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AjmoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C462A0524EEC88500C21D59 /* AjmoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjmoAppUITests.swift; sourceTree = "<group>"; };
+		9C462A0724EEC88500C21D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C462A1324EEC92A00C21D59 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		9C462A1A24EEDCFA00C21D59 /* BestCoffeeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestCoffeeService.swift; sourceTree = "<group>"; };
+		9C8B6E6624F820FA00787BC6 /* CasualViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasualViewModel.swift; sourceTree = "<group>"; };
+		9C8B6E6824F8213F00787BC6 /* CasualService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasualService.swift; sourceTree = "<group>"; };
+		9C8B6E6A24F8216100787BC6 /* Casual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Casual.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C4629DA24EEC88400C21D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C32C9CD24F5BD880051FE25 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4629F324EEC88500C21D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4629FE24EEC88500C21D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C3D941824F54E5900C3B1A2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9C3D941924F54E7900C3B1A2 /* BestCoffeeViewModel.swift */,
+				9C8B6E6624F820FA00787BC6 /* CasualViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9C4629D424EEC88400C21D59 = {
+			isa = PBXGroup;
+			children = (
+				9C4629DF24EEC88400C21D59 /* AjmoApp */,
+				9C4629F924EEC88500C21D59 /* AjmoAppTests */,
+				9C462A0424EEC88500C21D59 /* AjmoAppUITests */,
+				9C4629DE24EEC88400C21D59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C4629DE24EEC88400C21D59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C4629DD24EEC88400C21D59 /* AjmoApp.app */,
+				9C4629F624EEC88500C21D59 /* AjmoAppTests.xctest */,
+				9C462A0124EEC88500C21D59 /* AjmoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4629DF24EEC88400C21D59 /* AjmoApp */ = {
+			isa = PBXGroup;
+			children = (
+				9C3D941824F54E5900C3B1A2 /* ViewModels */,
+				9C462A1E24EEDD6B00C21D59 /* Views */,
+				9C462A1724EEDA8A00C21D59 /* Services */,
+				9C462A1624EEDA7F00C21D59 /* Models */,
+				9C462A1524EEDA5F00C21D59 /* Controllers */,
+				9C4629E024EEC88400C21D59 /* AppDelegate.swift */,
+				9C4629E224EEC88400C21D59 /* SceneDelegate.swift */,
+				9C4629EC24EEC88500C21D59 /* Assets.xcassets */,
+				9C4629EE24EEC88500C21D59 /* LaunchScreen.storyboard */,
+				9C4629F124EEC88500C21D59 /* Info.plist */,
+			);
+			path = AjmoApp;
+			sourceTree = "<group>";
+		};
+		9C4629F924EEC88500C21D59 /* AjmoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C4629FA24EEC88500C21D59 /* AjmoAppTests.swift */,
+				9C4629FC24EEC88500C21D59 /* Info.plist */,
+			);
+			path = AjmoAppTests;
+			sourceTree = "<group>";
+		};
+		9C462A0424EEC88500C21D59 /* AjmoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C462A0524EEC88500C21D59 /* AjmoAppUITests.swift */,
+				9C462A0724EEC88500C21D59 /* Info.plist */,
+			);
+			path = AjmoAppUITests;
+			sourceTree = "<group>";
+		};
+		9C462A1524EEDA5F00C21D59 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C462A1324EEC92A00C21D59 /* ViewController.xib */,
+				9C4629E424EEC88400C21D59 /* ViewController.swift */,
+				9C32C9D624F6575E0051FE25 /* GreatCoffeeCasualViewController.swift */,
+				9C32C9D724F6575E0051FE25 /* GreatCoffeeCasualViewController.xib */,
+				9C32C9DE24F65EE90051FE25 /* SingleBestCoffeeViewController.swift */,
+				9C32C9DF24F65EE90051FE25 /* SingleBestCoffeeViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9C462A1624EEDA7F00C21D59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C4629E924EEC88400C21D59 /* AjmoApp.xcdatamodeld */,
+				9C3D940E24F4529900C3B1A2 /* BestCoffee+CoreDataProperties.swift */,
+				9C3D941024F452BA00C3B1A2 /* BestCoffee+CoreDataClass.swift */,
+				9C3D941224F453FE00C3B1A2 /* DataController.swift */,
+				9C8B6E6A24F8216100787BC6 /* Casual.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C462A1724EEDA8A00C21D59 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9C462A1A24EEDCFA00C21D59 /* BestCoffeeService.swift */,
+				9C8B6E6824F8213F00787BC6 /* CasualService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9C462A1E24EEDD6B00C21D59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C3D941424F53AD800C3B1A2 /* Slide.swift */,
+				9C3D941624F53AE700C3B1A2 /* Slide.xib */,
+				9C32C9DA24F65A540051FE25 /* GreatCoffeeCasualTableViewCell.swift */,
+				9C32C9DB24F65A540051FE25 /* GreatCoffeeCasualTableViewCell.xib */,
+				9C32C9EE24F7A11F0051FE25 /* PopUpView.swift */,
+				9C32C9F024F7A5AA0051FE25 /* PopUpView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C4629DC24EEC88400C21D59 /* AjmoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C462A0A24EEC88500C21D59 /* Build configuration list for PBXNativeTarget "AjmoApp" */;
+			buildPhases = (
+				9C4629D924EEC88400C21D59 /* Sources */,
+				9C4629DA24EEC88400C21D59 /* Frameworks */,
+				9C4629DB24EEC88400C21D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AjmoApp;
+			packageProductDependencies = (
+				9C32C9CC24F5BD880051FE25 /* Kingfisher */,
+			);
+			productName = AjmoApp;
+			productReference = 9C4629DD24EEC88400C21D59 /* AjmoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C4629F524EEC88500C21D59 /* AjmoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C462A0D24EEC88500C21D59 /* Build configuration list for PBXNativeTarget "AjmoAppTests" */;
+			buildPhases = (
+				9C4629F224EEC88500C21D59 /* Sources */,
+				9C4629F324EEC88500C21D59 /* Frameworks */,
+				9C4629F424EEC88500C21D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4629F824EEC88500C21D59 /* PBXTargetDependency */,
+			);
+			name = AjmoAppTests;
+			productName = AjmoAppTests;
+			productReference = 9C4629F624EEC88500C21D59 /* AjmoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C462A0024EEC88500C21D59 /* AjmoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C462A1024EEC88500C21D59 /* Build configuration list for PBXNativeTarget "AjmoAppUITests" */;
+			buildPhases = (
+				9C4629FD24EEC88500C21D59 /* Sources */,
+				9C4629FE24EEC88500C21D59 /* Frameworks */,
+				9C4629FF24EEC88500C21D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C462A0324EEC88500C21D59 /* PBXTargetDependency */,
+			);
+			name = AjmoAppUITests;
+			productName = AjmoAppUITests;
+			productReference = 9C462A0124EEC88500C21D59 /* AjmoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C4629D524EEC88400C21D59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Dora Franjic";
+				TargetAttributes = {
+					9C4629DC24EEC88400C21D59 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					9C4629F524EEC88500C21D59 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9C4629DC24EEC88400C21D59;
+					};
+					9C462A0024EEC88500C21D59 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9C4629DC24EEC88400C21D59;
+					};
+				};
+			};
+			buildConfigurationList = 9C4629D824EEC88400C21D59 /* Build configuration list for PBXProject "AjmoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C4629D424EEC88400C21D59;
+			packageReferences = (
+				9C32C9CB24F5BD880051FE25 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 9C4629DE24EEC88400C21D59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C4629DC24EEC88400C21D59 /* AjmoApp */,
+				9C4629F524EEC88500C21D59 /* AjmoAppTests */,
+				9C462A0024EEC88500C21D59 /* AjmoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C4629DB24EEC88400C21D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3D941724F53AE700C3B1A2 /* Slide.xib in Resources */,
+				9C4629F024EEC88500C21D59 /* LaunchScreen.storyboard in Resources */,
+				9C32C9DD24F65A540051FE25 /* GreatCoffeeCasualTableViewCell.xib in Resources */,
+				9C462A1424EEC92A00C21D59 /* ViewController.xib in Resources */,
+				9C32C9E124F65EE90051FE25 /* SingleBestCoffeeViewController.xib in Resources */,
+				9C32C9F124F7A5AA0051FE25 /* PopUpView.xib in Resources */,
+				9C32C9D924F6575E0051FE25 /* GreatCoffeeCasualViewController.xib in Resources */,
+				9C4629ED24EEC88500C21D59 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4629F424EEC88500C21D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4629FF24EEC88500C21D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C4629D924EEC88400C21D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4629EB24EEC88400C21D59 /* AjmoApp.xcdatamodeld in Sources */,
+				9C4629E524EEC88400C21D59 /* ViewController.swift in Sources */,
+				9C3D941A24F54E7900C3B1A2 /* BestCoffeeViewModel.swift in Sources */,
+				9C3D940F24F4529900C3B1A2 /* BestCoffee+CoreDataProperties.swift in Sources */,
+				9C32C9D824F6575E0051FE25 /* GreatCoffeeCasualViewController.swift in Sources */,
+				9C3D941124F452BA00C3B1A2 /* BestCoffee+CoreDataClass.swift in Sources */,
+				9C32C9E024F65EE90051FE25 /* SingleBestCoffeeViewController.swift in Sources */,
+				9C32C9EF24F7A11F0051FE25 /* PopUpView.swift in Sources */,
+				9C8B6E6924F8213F00787BC6 /* CasualService.swift in Sources */,
+				9C3D941324F453FE00C3B1A2 /* DataController.swift in Sources */,
+				9C462A1B24EEDCFA00C21D59 /* BestCoffeeService.swift in Sources */,
+				9C8B6E6B24F8216100787BC6 /* Casual.swift in Sources */,
+				9C8B6E6724F820FA00787BC6 /* CasualViewModel.swift in Sources */,
+				9C4629E124EEC88400C21D59 /* AppDelegate.swift in Sources */,
+				9C4629E324EEC88400C21D59 /* SceneDelegate.swift in Sources */,
+				9C32C9DC24F65A540051FE25 /* GreatCoffeeCasualTableViewCell.swift in Sources */,
+				9C3D941524F53AD800C3B1A2 /* Slide.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4629F224EEC88500C21D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4629FB24EEC88500C21D59 /* AjmoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4629FD24EEC88500C21D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C462A0624EEC88500C21D59 /* AjmoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C4629F824EEC88500C21D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C4629DC24EEC88400C21D59 /* AjmoApp */;
+			targetProxy = 9C4629F724EEC88500C21D59 /* PBXContainerItemProxy */;
+		};
+		9C462A0324EEC88500C21D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C4629DC24EEC88400C21D59 /* AjmoApp */;
+			targetProxy = 9C462A0224EEC88500C21D59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C4629EE24EEC88500C21D59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4629EF24EEC88500C21D59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C462A0824EEC88500C21D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C462A0924EEC88500C21D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C462A0B24EEC88500C21D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4X4M56L4Y;
+				INFOPLIST_FILE = AjmoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FER.AjmoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C462A0C24EEC88500C21D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4X4M56L4Y;
+				INFOPLIST_FILE = AjmoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FER.AjmoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C462A0E24EEC88500C21D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4X4M56L4Y;
+				INFOPLIST_FILE = AjmoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FER.AjmoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjmoApp.app/AjmoApp";
+			};
+			name = Debug;
+		};
+		9C462A0F24EEC88500C21D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4X4M56L4Y;
+				INFOPLIST_FILE = AjmoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FER.AjmoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjmoApp.app/AjmoApp";
+			};
+			name = Release;
+		};
+		9C462A1124EEC88500C21D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4X4M56L4Y;
+				INFOPLIST_FILE = AjmoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FER.AjmoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AjmoApp;
+			};
+			name = Debug;
+		};
+		9C462A1224EEC88500C21D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4X4M56L4Y;
+				INFOPLIST_FILE = AjmoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FER.AjmoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AjmoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C4629D824EEC88400C21D59 /* Build configuration list for PBXProject "AjmoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C462A0824EEC88500C21D59 /* Debug */,
+				9C462A0924EEC88500C21D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C462A0A24EEC88500C21D59 /* Build configuration list for PBXNativeTarget "AjmoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C462A0B24EEC88500C21D59 /* Debug */,
+				9C462A0C24EEC88500C21D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C462A0D24EEC88500C21D59 /* Build configuration list for PBXNativeTarget "AjmoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C462A0E24EEC88500C21D59 /* Debug */,
+				9C462A0F24EEC88500C21D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C462A1024EEC88500C21D59 /* Build configuration list for PBXNativeTarget "AjmoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C462A1124EEC88500C21D59 /* Debug */,
+				9C462A1224EEC88500C21D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9C32C9CB24F5BD880051FE25 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C32C9CC24F5BD880051FE25 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C32C9CB24F5BD880051FE25 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		9C4629E924EEC88400C21D59 /* AjmoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9C4629EA24EEC88400C21D59 /* AjmoApp.xcdatamodel */,
+			);
+			currentVersion = 9C4629EA24EEC88400C21D59 /* AjmoApp.xcdatamodel */;
+			path = AjmoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9C4629D524EEC88400C21D59 /* Project object */;
+}

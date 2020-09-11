@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BestCoffee" representedClassName="BestCoffee" syncable="YES">
+        <attribute name="active" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="allTags" optional="YES" attributeType="Transformable"/>
+        <attribute name="bat" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="descriptionOfProperty" optional="YES" attributeType="String"/>
+        <attribute name="gallery" optional="YES" attributeType="Transformable"/>
+        <attribute name="hasQRCode" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lattitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="opened" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="pictureUrl" optional="YES" attributeType="String"/>
+        <attribute name="primaryTagGroup" optional="YES" attributeType="String"/>
+        <attribute name="promoted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="shareLink" optional="YES" attributeType="String"/>
+        <attribute name="smokingArea" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="subtitle" optional="YES" attributeType="String"/>
+        <attribute name="telephone" optional="YES" attributeType="String"/>
+        <attribute name="trending" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="venueCategories" optional="YES" attributeType="Transformable"/>
+        <attribute name="web" optional="YES" attributeType="String"/>
+        <attribute name="workingHours" optional="YES" attributeType="Transformable"/>
+    </entity>
+    <elements>
+        <element name="BestCoffee" positionX="-63" positionY="-18" width="128" height="418"/>
+    </elements>
+</model>

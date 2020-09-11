@@ -1,0 +1,6 @@
+framework module Pods_TopPopTests {
+  umbrella header "Pods-TopPopTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
