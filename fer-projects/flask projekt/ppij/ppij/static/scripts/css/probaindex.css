@@ -1,0 +1,396 @@
+
+#tonyopcija1 {
+    background-color: #FEED67;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 25px;
+    padding-left: 3%;
+    margin-bottom: 0;
+}
+
+#tonyopcija2 {
+    background-color: #ffffe0;
+    font-family: 'Baloo Chettan 2', cursive;
+    text-align: right;
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-right: 3%;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+p {
+    margin: 0 0 0 0;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logo {
+    width: 100%;
+    height: 40%;
+    margin-bottom: 3%;
+}
+
+#logo_boja{
+    width: 100%;
+    height: 50%;
+    background-color: #FEED67;
+    margin: 0 0 0 0;
+}
+
+#logo_donji {
+    position: relative;
+    height: 20%;
+}
+
+#logo_slika {
+    width: 14%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+    border: 7px solid #FEED67;
+}
+
+#description {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 1.5;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 1.8rem;
+}
+
+.optionsbootstrapcont{
+    width: 100%;
+    height: 10%;
+   padding: 0 0 0 0;
+   margin: 0 0 0 0;
+}
+
+#optionsbootstrap {
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+
+#options {
+    width: 100%;
+    height: 30%;
+    margin: 0 0 0 0;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 3%;
+}
+
+.article {
+ 
+}
+
+#right{
+    padding-top: 3%;
+}
+
+#left_option {
+    background-color: #FEED67;
+    flex: 1;
+    line-height: 0.2;
+    font-family: 'Baloo Chettan 2', cursive;
+    padding-left: 2%;
+    font-size: 1.8rem;
+}
+
+
+
+#right_option {
+    
+    background-color: #ffffe0;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    line-height: 0.2;
+    text-align: right;
+    font-family: 'Baloo Chettan 2', cursive;
+    padding-right: 2%;
+    font-size: 2.2vw;
+}
+
+
+#lijevinovi {
+    background-color: #FEED67;
+    line-height: 0.2;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 1.5rem;
+    padding-top: 2%;
+}
+
+#desninovi {
+    background-color: #ffffe0;
+    line-height: 0.2;
+    text-align: right;
+    font-family: 'Baloo Chettan 2', cursive;
+    padding-right: 2%;
+    font-size: 1.5rem;
+    padding-top: 5%;
+}
+
+.container{
+    margin-bottom: 2%;
+}
+
+#option1 {
+    height: 800px;
+    text-align: center;
+}
+
+#opt1search{
+    padding-top: 10%;
+    text-align: center;
+}
+
+#datepicker {
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid #083d77;
+    text-align: center;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 1.2rem;
+}
+
+#opt1results {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.result {
+    height: 500px;
+}
+
+.resultinner {
+    border: 3px solid #FEED67;
+    border-radius: 10px;
+    box-shadow: 10px 10px #F46710;
+}
+
+.destinationname {
+    width: 100%;
+    height: 10%;
+    background-color: #FEED67;
+    text-align: center;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 1.2rem;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    color: #F46710;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destinationimage{
+    width: 100%;
+}
+
+.imgresult {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+
+.otheroption {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.chooseagain {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    float: right;
+}
+
+.pdf {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+
+.submit {
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+    .submit:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #083d77;
+        border-radius: 10rem;
+        z-index: -2;
+    }
+
+    .submit:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #042447;
+        transition: all .3s;
+        border-radius: 10rem;
+        z-index: -1;
+    }
+
+    .submit:hover {
+        color: antiquewhite;
+    }
+
+        .submit:hover:before {
+            width: 100%;
+        }
+
+
+
+
+
+.button {
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: orange;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+    .button:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #083d77;
+        border-radius: 10rem;
+        z-index: -2;
+    }
+
+    .button:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #042447;
+        transition: all .3s;
+        border-radius: 10rem;
+        z-index: -1;
+    }
+
+    .button:hover {
+        color: ghostwhite;
+    }
+
+        .button:hover:before {
+            width: 100%;
+        }
+
+
+
+#opt1export {
+    /*padding-top: 10%;*/
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10%;
+    color: #ffffe0;
+}
+
+#opt2export {
+    padding-top: 10%;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10%;
+    color: #ffffe0;
+}
+
+.dropdownDest {
+    text-align: center;
+
+}
+
+.dropdownSeason{
+    text-align: center;
+}
+
+
+#month1 {
+    background-color: #FEED67;
+    padding: 2px 2px 2px 2px;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+#month2 {
+    background-color: #ffffe0;
+    padding: 2px 2px 2px 2px;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+#month3 {
+    background-color: #FEED67;
+    padding: 2px 2px 2px 2px;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+
+
+.grow:hover {
+    box-shadow: inset 0 0 0 10px #F46710;
+}

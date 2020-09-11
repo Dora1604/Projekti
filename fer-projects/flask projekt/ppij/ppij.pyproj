@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>20d1199b-cbea-4f6c-ab0b-4c2ef72c9527</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>ppij</Name>
+    <RootNamespace>ppij</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="runserver.py" />
+    <Compile Include="ppij\__init__.py" />
+    <Compile Include="ppij\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ppij\" />
+    <Folder Include="ppij\dataset\" />
+    <Folder Include="ppij\static\" />
+    <Folder Include="ppij\static\content\" />
+    <Folder Include="ppij\static\fonts\" />
+    <Folder Include="ppij\static\images\" />
+    <Folder Include="ppij\static\scripts\" />
+    <Folder Include="ppij\static\scripts\css\" />
+    <Folder Include="ppij\static\scripts\js\" />
+    <Folder Include="ppij\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ppij\dataset\.DS_Store" />
+    <Content Include="ppij\dataset\dubrovnik.csv" />
+    <Content Include="ppij\dataset\dubrovnik.jpg" />
+    <Content Include="ppij\dataset\gospic.csv" />
+    <Content Include="ppij\dataset\gospic.jpg" />
+    <Content Include="ppij\dataset\osijek.csv" />
+    <Content Include="ppij\dataset\osijek.jpg" />
+    <Content Include="ppij\dataset\pula.csv" />
+    <Content Include="ppij\dataset\pula.jpg" />
+    <Content Include="ppij\dataset\rijeka.csv" />
+    <Content Include="ppij\dataset\rijeka.jpg" />
+    <Content Include="ppij\dataset\sibenik.csv" />
+    <Content Include="ppij\dataset\sibenik.jpg" />
+    <Content Include="ppij\dataset\split.csv" />
+    <Content Include="ppij\dataset\split.jpg" />
+    <Content Include="ppij\dataset\varazdin.csv" />
+    <Content Include="ppij\dataset\varazdin.jpg" />
+    <Content Include="ppij\dataset\zadar.csv" />
+    <Content Include="ppij\dataset\zadar.jpg" />
+    <Content Include="ppij\dataset\zagreb.csv" />
+    <Content Include="ppij\static\content\proba.css">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="ppij\static\images\.DS_Store" />
+    <Content Include="ppij\static\images\dubrovnik.jpg" />
+    <Content Include="ppij\static\images\gleen.jpeg" />
+    <Content Include="ppij\static\images\gleen.png" />
+    <Content Include="ppij\static\images\gleen21.jpeg" />
+    <Content Include="ppij\static\images\gleen221.jpeg" />
+    <Content Include="ppij\static\images\gospic.jpg" />
+    <Content Include="ppij\static\images\osijek.jpg" />
+    <Content Include="ppij\static\images\proba.jpeg" />
+    <Content Include="ppij\static\images\pula.jpg" />
+    <Content Include="ppij\static\images\rijeka.jpg" />
+    <Content Include="ppij\static\images\rovinj.jpg" />
+    <Content Include="ppij\static\images\rsz_gleen.jpg" />
+    <Content Include="ppij\static\images\sibenik.jpg" />
+    <Content Include="ppij\static\images\split.jpg" />
+    <Content Include="ppij\static\images\varazdin.jpg" />
+    <Content Include="ppij\static\images\zadar.jpg" />
+    <Content Include="ppij\static\images\zagreb.jpg" />
+    <Content Include="ppij\static\images\zgb.jpg" />
+    <Content Include="ppij\static\scripts\css\demo.css" />
+    <Content Include="ppij\static\scripts\css\font-awesome.min.css" />
+    <Content Include="ppij\static\scripts\css\normalize.css" />
+    <Content Include="ppij\static\scripts\css\noviindex.css" />
+    <Content Include="ppij\static\scripts\css\probaindex.css">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="ppij\static\scripts\css\xopixel.css" />
+    <Content Include="ppij\static\scripts\js\probaindex.js" />
+    <Content Include="ppij\static\scripts\proba.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="ppij\templates\nesto1.html" />
+    <Content Include="ppij\templates\nesto2.html" />
+    <Content Include="ppij\templates\option1.html" />
+    <Content Include="ppij\templates\option2.html" />
+    <Content Include="ppij\templates\pdf_template.html" />
+    <Content Include="ppij\templates\probaindex.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="ppij\templates\snow.html" />
+    <Content Include="ppij\templates\tony.html" />
+    <Content Include="requirements.txt" />
+    <Content Include="ppij\static\content\bootstrap.css" />
+    <Content Include="ppij\static\content\bootstrap.min.css" />
+    <Content Include="ppij\static\content\site.css" />
+    <Content Include="ppij\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="ppij\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="ppij\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="ppij\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="ppij\static\scripts\bootstrap.js" />
+    <Content Include="ppij\static\scripts\bootstrap.min.js" />
+    <Content Include="ppij\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="ppij\static\scripts\jquery-1.10.2.js" />
+    <Content Include="ppij\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="ppij\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="ppij\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="ppij\static\scripts\jquery.validate.js" />
+    <Content Include="ppij\static\scripts\jquery.validate.min.js" />
+    <Content Include="ppij\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="ppij\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="ppij\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="ppij\static\scripts\respond.js" />
+    <Content Include="ppij\static\scripts\respond.min.js" />
+    <Content Include="ppij\static\scripts\_references.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
